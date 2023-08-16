@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calc Bmi</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="bmi-box">
+      <div class="img-box">
+        <img src="img.avif" alt="img" />
+      </div>
+      <div class="calc-box">
+        <h2>BMI Calculate</h2>
+        <div>
+          <div>
+            <input class="height" type="text" placeholder="Enter Your height" />
+          </div>
+          <div>
+            <input class="weight" type="text" placeholder="Enter Your weight" />
+          </div>
+        </div>
+        <div class="alert">Please Fill The Gap</div>
+        <div>
+          <a id="calc" href="#">Calc</a>
+        </div>
+        <!-- AFTER CLICK CALC -->
+        <!-- <p class="show-bmi-value"></p>
+        <p class="show-result"></p> -->
+      </div>
+    </div>
+    <div class="bmi-box-value">
+      <!-- Head -->
+      <div class="bmi-box-value-head">
+        <!-- weight -->
+        <div>
+          <span>Weight</span>
+          <span class="show-weight-value"></span>
+        </div>
+        <div>
+          <span>Height</span>
+          <span class="show-height-value"></span>
+        </div>
+      </div>
+      <!-- BMI VALUE -->
+      <div class="bmi-circle">
+        <h1>BMI</h1>
+        <!-- value -->
+        <h2 class="bmi-value">19.5</h2>
+      </div>
+      <!-- Status -->
+      <div class="status"></div>
+      <!-- Reset BUTTON -->
+      <a class="reset-btn" href="#">Reset</a>
+    </div>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
